@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Notion 中文补丁",
+  "version": "0.1.1",
+  "description": "非官方中文语言包",
+  "icons": { 
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png" },
+ 
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://notion.so/*", "https://www.notion.so/*"]
+  }]
+}
