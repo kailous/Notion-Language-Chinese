@@ -1,16 +1,20 @@
 {
-  "manifest_version": 2,
- 
-  "name": "Notion 中文补丁",
-  "version": "0.1.1",
-  "description": "非官方中文语言包",
-  "icons": { 
-    "16": "icon16.png",
-    "48": "icon48.png",
-    "128": "icon128.png" },
- 
-  "content_scripts": [{
-    "js": ["content.js"],
-    "matches": ["https://notion.so/*", "https://www.notion.so/*"]
-  }]
+    "manifest_version": 2,
+    "name": "Notion 中文补丁",
+    "short_name": "Notion-Language-Chinese",
+    "version": "0.1.1",
+    "homepage_url": "https://github.com/kailous/Notion-Language-Chinese",
+    "description": "非官方中文语言包，目前汉化还不是很完全，感兴趣的同学可以一起维护。",
+    "icons": {
+        "16": "img/icon-16.png",
+        "48": "img/icon-48.png",
+        "128": "img/icon-128.png"
+    },
+    "content_scripts": [
+        {
+            "js": ["js/content.js"],
+            "matches": ["https://notion.so/*", "https://www.notion.so/*"],
+            "run_at": "document_end",
+            "all_frames": true
+    }]
 }
