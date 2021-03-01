@@ -21,7 +21,7 @@ var strings = {
     "Number": "数字",
     "Multi-select": "多选项",
     "Date": "日期",
-    "Person": "人",
+    "Person": "成员",
     "Files & media": "文件和媒体",
     "Checkbox": "复选框",
     "Phone": "电话",
@@ -36,6 +36,11 @@ var strings = {
     //#
     
     //#
+    "Configure options": "配置选项",
+    "Configure rollup": "配置汇总",
+    "Edit formula": "编辑公式",
+    "Format date": "日期格式",
+    "Format number": "数字格式",
     "Hide property": "隐藏属性",
     "Always show": "始终显示",
     "Hide when empty": "值为空时隐藏",
@@ -44,6 +49,88 @@ var strings = {
     "Delete property": "删除该属性",
     //#
     
+    "Number with commas": "带逗号的数字",
+    "Percent": "百分比",
+    "Dollar": "美元",
+    "Euro": "欧元",
+    "Pound": "英磅",
+    "Yen": "日元",
+    "Ruble": "卢布",
+    "Rupee": "印度卢比",
+    "Won": "韩元",
+    "Yuan": "人民币",
+    "Real": "巴西雷亚尔",
+    "Lira": "里拉",
+    "Rupiah": "印尼盾",
+    
+    //#
+    "Add filter": "添加筛选器",
+    "Sort ascending": "升序排序",
+    "Sort descending": "降序排序",
+    "Insert left": "向左插入",
+    "Insert right": "向右插入",
+    //#
+    
+    //#
+    "Use a filter to:": "使用过滤器：",
+    "Show tasks assigned to me.": "显示分配给我的任务。",
+    "Show only notes with a certain tag.": "仅显示带有特定标记的笔记。",
+    "Hide completed tasks.": "隐藏已完成的任务。",
+    //#
+    
+    
+    //#
+    "Use a sort to:": "使用排序：",
+    "Order tasks by priority.": "按优先级排序任务。",
+    "Show notes by creation date.": "按创建日期显示笔记。",
+    "Show recently contacted customers.": "显示最近联系的客户。",
+    //#
+    
+    "Count all": "全部计数",
+    "Count values": "计数值",
+    "Count unique values": "计算唯一值",
+    "Count empty": "空值的计数",
+    "Count not empty": "非空值的计数",
+    "Percent empty": "空值的百分比",
+    "Percent not empty": "非空值的百分比",
+    "Earliest date": "最早日期",
+    "Latest date": "最新日期",
+    "Date range": "日期范围",
+    "Sum": "总和",
+    "Average": "平均值",
+    "Median": "中值",
+    "Min": "最小值",
+    "Max": "最大值",
+    "Range": "范围",
+    "Checked": "选中的",
+    "Unchecked": "未选中的",
+    "Percent checked": "选中的百分比",
+    "Percent unchecked": "未选中的百分比",
+    //#
+    "Counts the total number of pages, including blank pages.": "统计包括空白页在内的总页数。",
+"Counts the number of non-empty values for this property. For a type that can contain multiple values like multi-select or person, this will count the number of selected values for each page.": "统计此属性的非空值数。对于可以包含多个值（如多选项或单选项）的类型，这将计算每页所选值的数目。",
+"Counts the number of unique values for this property. For a type that can contain multiple values like multi-select or person, this will count the unique values across all pages.": "统计此属性的唯一值数。对于可以包含多个值（如multi select或person）的类型，这将计算所有页面中的唯一值。",
+"Shows the unique values for this property. For a type that can contain multiple values like multi-select or person, this will count the unique values across all pages.": "显示此属性的唯一值。对于可以包含多个值（如multi select或person）的类型，这将计算所有页面中的唯一值。",
+"Counts the number of pages with an empty value for this property.": "统计此属性值为空的页数。",
+"Counts the number of pages with a non-empty value for this property.": "统计此属性具有非空值的页数。",
+"Displays the percentage of pages that have an empty value for this property.": "显示此属性值为空的页面百分比。",
+"Displays the percentage of pages that have a non-empty value for this property.": "显示此属性具有非空值的页面百分比。",
+"Computes the sum of a numeric property.": "计算数值属性的和。",
+"Computes the average of a numeric property.": "计算数值属性的平均值。",
+"Finds the median of a numeric property.": "查找数值属性的中间值。",
+"Finds the minimum of a numeric property.": "查找数值属性的最小值。",
+"Finds the maximum of a numeric property.": "查找数值属性的最大值。",
+"Computes the range (maximum - minimum) of a numeric property.": "计算数值属性的范围（最大-最小）。",
+"Finds the earliest date in time of a date property.": "查找日期属性中时间最早的日期。",
+"Finds the latest date in time of a date property.": "查找日期属性中时间最晚的日期。",
+"Computes the date range (latest date - earliest date) of a date property.": "计算日期属性的日期范围（最晚日期-最早日期）。",
+"Counts the number of pages with a checked checkbox for this property.": "统计选中此属性复选框的页数。",
+"Counts the number of pages with an unchecked checkbox for this property.": "统计此属性未选中复选框的页数。",
+"Displays the percentage of pages that have a checked checkbox for this property.": "显示选中此属性复选框的页面百分比。",
+"Displays the percentage of pages that have an unchecked checkbox for this property.": "显示具有此属性的未选中复选框的页面百分比。",
+    //#
+
+    //#
     //#region Login
     "Sign up": "注册",
     "Log in": "登录",

@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Notion 中文补丁",
     "short_name": "Notion-Language-Chinese",
-    "version": "0.1.1",
+    "version": "1.3",
     "homepage_url": "https://github.com/kailous/Notion-Language-Chinese",
     "description": "非官方中文语言包，目前汉化还不是很完全，感兴趣的同学可以一起维护。",
     "icons": {
@@ -18,3 +18,4 @@
             "all_frames": true
     }]
 }
+
